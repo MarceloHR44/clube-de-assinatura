@@ -43,14 +43,10 @@
   --fw-base: 400;
   --fw-md: 500;
   --fw-bold: 700;
-
-  --px-lg: 1.25rem;
  }
 
  html {
   font-family: var(--ff-base);
-  font-weight: var(--fw-base);
-  font-size: var(--fs-base);
   color: var(--text-body);
  }
 
