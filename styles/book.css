@@ -1,4 +1,4 @@
-section#book-kit {
+#book-kit {
   text-align: center;
   margin-inline: auto;
   padding-bottom: 5.5rem;
@@ -135,7 +135,7 @@ section#book-kit {
 }
 
 @media (width >= 48em) {
-  section#book-kit {
+  #book-kit {
     max-width: 90rem;
     padding-bottom: 17.4rem;
 
