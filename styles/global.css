@@ -51,6 +51,7 @@
 }
 
 html {
+  /* background-color: var(--shape-background); */
   font-family: var(--ff-base);
   font-weight: var(--fw-base);
   font-size: var(--fs-base);
