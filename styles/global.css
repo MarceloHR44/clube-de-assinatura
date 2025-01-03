@@ -5,10 +5,15 @@
   padding: 0;
   box-sizing: border-box;
 
+  * {
+    font: inherit;
+  }
+
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
- :root {
+
+:root {
   --pink-light: #c59dd2;
   --pink-base: #8547a5;
   --pink-dark: #7d298a;
@@ -43,23 +48,27 @@
   --fw-base: 400;
   --fw-md: 500;
   --fw-bold: 700;
- }
+}
 
- html {
+html {
   font-family: var(--ff-base);
+  font-weight: var(--fw-base);
+  font-size: var(--fs-base);
   color: var(--text-body);
- }
+}
 
- body {
+body {
   background-color: var(--shape-background);
- }
+}
 
- h1, h2, h3 {
+h1,
+h2,
+h3 {
   font-weight: var(--fw-bold);
   color: var(--text-title);
- }
+}
 
- a {
+a {
   text-decoration: none;
   color: inherit;
 }
@@ -68,7 +77,7 @@ ul[role="list"] {
   list-style: none;
 }
 
-@media (width >= 48em) {
+@media (width >=48em) {
   :root {
     max-width: 90rem;
     width: 100%;
